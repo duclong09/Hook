@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-bottom: 50px;
+   
+    
+}
+
+.navbar > *{
+    margin-left: 2rem;
+    color: black;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+    
+}
+
+.navbar > *:hover{
+    color: red;
+    
+}
